@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Okuku Brian | Full-Stack Software Engineer</title>
+    <meta name="description" content="Full-Stack Software Engineer specializing in React, JavaScript, and Python with experience in building scalable web applications.">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <canvas class="bg-canvas"></canvas>
+
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">OB</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+                    <span class="theme-icon">🌙</span>
+                </button>
+                <a href="#contact" class="cta-btn">Let's Talk</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-tag">👋 Available for Freelance & Remote Work</div>
+            <h1>
+                Hi, I'm <span class="gradient-text">Okuku Brian</span><br>
+                Full-Stack Engineer
+            </h1>
+            <p>
+                    Building elegant, scalable web applications with React, Flask, Python, SQL, and JavaScript. 
+    Skilled in both frontend and backend development to deliver seamless, high-performance full-stack solutions.
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work →</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="hero-image-wrapper">
+                <img src="./assets/profile.jpeg" alt="Okuku Brian">
+            </div>
+        </div>
+    </section>
+<!-- 
+    <section id="about">
+        <div class="section-header fade-in">
+            <div class="section-label">ABOUT ME</div>
+            <h2>My Journey</h2>
+            <p class="section-description">
+                6+ months of professional experience building modern web applications
+            </p>
+        </div>
+        <div class="about-content">
+            <div class="about-text">
+                <p>
+                    I'm a passionate full-stack engineer with intensive training from Moringa School. 
+                    I specialize in frontend development, focusing on crafting robust and scalable web 
+                    applications with elegant design and exceptional user experience.
+                </p>
+                <p>
+                    My high learning velocity allows me to quickly adopt new tools and frameworks to 
+                    build modern, responsive interfaces. I'm driven to apply my skills in frontend 
+                    design and development to create innovative, user-focused solutions.
+                </p>
+                <div class="about-highlights">
+                    <div class="highlight">
+                        <span class="highlight-icon">🎓</span>
+                        <div>
+                            <h4>Moringa School</h4>
+                            <p>Full-Stack Development</p>
+                        </div>
+                    </div>
+                    <div class="highlight">
+                        <span class="highlight-icon">💼</span>
+                        <div>
+                            <h4>6+ Months</h4>
+                            <p>Professional Experience</p>
+                        </div>
+                    </div>
+                    <div class="highlight">
+                        <span class="highlight-icon">🚀</span>
+                        <div>
+                            <h4>Fast Learner</h4>
+                            <p>Quick to adapt new technologies</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section id="projects">
+        <div class="section-header fade-in">
+            <div class="section-label">PORTFOLIO</div>
+            <h2>Featured Projects</h2>
+            <p class="section-description">
+                A selection of my recent work showcasing full-stack development, 
+                modern UI/UX, and scalable architectures
+            </p>
+        </div>
+
+        <div class="projects-grid">
+            <div class="project-card fade-in">
+                <img src="assets/moringa.jpeg" alt="Moringa School Daily.dev" class="project-image">
+                <div class="project-content">
+                    <h3 class="project-title">Moringa School Daily.dev</h3>
+                    <p class="project-description">
+                        Comprehensive admin dashboard with real-time analytics, user management, 
+                        and content moderation. Led development as Scrum Master.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">Redux</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">Flask</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://moringa-school-daily-dev.vercel.app/" class="project-link link-primary" target="_blank">Live Demo</a>
+                        <a href="https://github.com/Hafifahussein/moringaSchoolDaily.dev" class="project-link link-secondary" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card fade-in">
+                <img src="assets/ticket2.jpg" alt="Event Management System" class="project-image">
+                <div class="project-content">
+                    <h3 class="project-title">Event Management System</h3>
+                    <p class="project-description">
+                        Full-featured event platform with admin dashboard, event discovery, 
+                        authentication, and M-Pesa payment integration.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">Context API</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">Axios</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Hafifahussein/Event-management-system/tree/main" class="project-link link-primary" target="_blank">View Project</a>
+                        <a href="https://github.com/Hafifahussein/Event-management-system/tree/main" class="project-link link-secondary" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card fade-in">
+                <img src="assets/shopping.jpg" alt="HBS Bazaar" class="project-image">
+                <div class="project-content">
+                    <h3 class="project-title">HBS Bazaar E-Commerce</h3>
+                    <p class="project-description">
+                        React-based e-commerce platform with full CRUD operations, 
+                        shopping cart, and hybrid data management.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">REST API</span>
+                        <span class="tag">LocalStorage</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://hbs-bazaar.vercel.app/" class="project-link link-primary" target="_blank">Live Demo</a>
+                        <a href="https://github.com/Hafifahussein/HBS_Bazaar" class="project-link link-secondary" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card fade-in">
+                <img src="assets/netflix.jpg" alt="Netflix Clone" class="project-image">
+                <div class="project-content">
+                    <h3 class="project-title">Netflix-Style Streaming</h3>
+                    <p class="project-description">
+                        Fully responsive streaming interface with dynamic carousels, 
+                        modal windows, and genre-based browsing.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">Responsive</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://netflix-ashy-xi.vercel.app/" class="project-link link-primary" target="_blank">Live Demo</a>
+                        <a href="https://github.com/Hafifahussein/Netflix" class="project-link link-secondary" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card fade-in">
+                <img src="assets/ludo2.jpg" alt="Ludo Game" class="project-image">
+                <div class="project-content">
+                    <h3 class="project-title">Ludo Game</h3>
+                    <p class="project-description">
+                        Full-featured Ludo board game with complete game mechanics, 
+                        player statistics tracking, and SQLite database integration.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">PyGame</span>
+                        <span class="tag">SQLite</span>
+                        <span class="tag">OOP</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Hafifahussein/Ludo" class="project-link link-primary" target="_blank">View Project</a>
+                        <a href="https://github.com/Hafifahussein/Ludo" class="project-link link-secondary" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card fade-in">
+                <img src="assets/address.jpg" alt="AddressBook" class="project-image">
+                <div class="project-content">
+                    <h3 class="project-title">AddressBook App</h3>
+                    <p class="project-description">
+                        Comprehensive single-page application with contact manager, 
+                        travel memory tracker, and dynamic To-Do List with localStorage.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">OOP</span>
+                        <span class="tag">LocalStorage</span>
+                        <span class="tag">Testing</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://addressbook-psi.vercel.app/" class="project-link link-primary" target="_blank">Live Demo</a>
+                        <a href="https://github.com/Hafifahussein/Addressbook" class="project-link link-secondary" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="section-header fade-in">
+            <div class="section-label">EXPERTISE</div>
+            <h2>Skills & Technologies</h2>
+            <p class="section-description">
+                Modern tools and technologies I use to build exceptional digital experiences
+            </p>
+        </div>
+
+        <div class="skills-grid">
+            <div class="skill-card fade-in">
+                <div class="skill-icon">💻</div>
+                <h3>Frontend Development</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">React</span>
+                    <span class="skill-tag">Redux</span>
+                    <span class="skill-tag">JavaScript ES6+</span>
+                    <span class="skill-tag">HTML5</span>
+                    <span class="skill-tag">CSS3</span>
+                    <span class="skill-tag">Responsive Design</span>
+                </div>
+            </div>
+
+            <div class="skill-card fade-in">
+                <div class="skill-icon">⚙️</div>
+                <h3>Backend Development</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">Flask</span>
+                    <span class="skill-tag">REST APIs</span>
+                    <span class="skill-tag">SQLite</span>
+                    <span class="skill-tag">OOP</span>
+                </div>
+            </div>
+
+            <div class="skill-card fade-in">
+                <div class="skill-icon">🛠️</div>
+                <h3>Tools & Workflow</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">Git</span>
+                    <span class="skill-tag">npm</span>
+                    <span class="skill-tag">Vite</span>
+                    <span class="skill-tag">Figma</span>
+                    <span class="skill-tag">Vercel</span>
+                    <span class="skill-tag">Agile/Scrum</span>
+                    
+                </div>
+            </div>
+
+            <div class="skill-card fade-in">
+                <div class="skill-icon">🎨</div>
+                <h3>Design & UX</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">UI/UX Design</span>
+                    <span class="skill-tag">Figma</span>
+                    <span class="skill-tag">Responsive Design</span>
+                    <span class="skill-tag">Accessibility</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="section-header fade-in">
+            <div class="section-label">GET IN TOUCH</div>
+            <h2>Let's Work Together</h2>
+            <p class="section-description">
+                Have a project in mind? Let's create something amazing together
+            </p>
+        </div>
+
+        <div class="contact-container">
+            <div class="contact-info fade-in">
+                <h3>Contact Information</h3>
+                
+                <div class="contact-item">
+                    <div class="contact-icon">📧</div>
+                    <div>
+                        <div class="contact-label">Email</div>
+                        <a href="mailto:okukubrian743@gmail.com" class="contact-link">okukubrian743@gmail.com</a>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icon">📱</div>
+                    <div>
+                        <div class="contact-label">Phone</div>
+                        <a href="tel:0793459226" class="contact-link">0793459226</a>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icon">📍</div>
+                    <div>
+                        <div class="contact-label">Location</div>
+                        <span class="contact-text">Nairobi, Kenya</span>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <h4>Connect With Me</h4>
+                    <div class="social-buttons">
+                        <a href="https://github.com/okukubrianokoth" class="btn btn-secondary" target="_blank">GitHub</a>
+                        <a href="https://www.linkedIn.com/in/okuku-brian-237551373" class="btn btn-secondary" target="_blank">LinkedIn</a>
+                        <a href="https://x.com/OkukuB9034?t=4P2Nnup56xOqvFzmD2Clpg&s=09" class="btn btn-secondary" target="_blank">Twitter</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form fade-in">
+                <h3>Send Me a Message</h3>
+                <form id="contactForm" action="https://formspree.io/f/myzlgdjz" method="POST">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">
+                        Send Message
+                    </button>
+                    <div id="formStatus" class="form-status"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Okuku Brian. Built with passion and modern web technologies.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
